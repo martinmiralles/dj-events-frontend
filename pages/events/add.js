@@ -5,7 +5,6 @@ import Link from "next/link";
 import { API_URL } from "@/config/index";
 import styles from "@/styles/Form.module.css";
 import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 import { parseCookies } from "@/helpers/index";
 
 const AddEventPage = ({ token }) => {
